@@ -1,0 +1,106 @@
+(footprint "PIN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa6281ec-8fd3-4fef-8415-9acd573602a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b06b767e-99db-4fa6-a55e-ca619279ff3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0f1dbfe-f741-4316-a5ba-73aa5a29beeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50711ead-18c5-48cf-8995-434f81162c3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5372ddc8-8bc5-4935-b6fa-0a64ecc02d1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole custom
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.25)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1 1.096276) (xy 1 -1.139784)
+					(arc
+						(start 0.999995 -1.139788)
+						(mid -0.000003 -1.521751)
+						(end -1 -1.139784)
+					)
+					(xy -1 1.096276)
+					(arc
+						(start -0.999998 1.096283)
+						(mid 0 1.478246)
+						(end 0.999997 1.096279)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "11ec6489-d649-4279-b424-5f483a412640")
+	)
+	(embedded_fonts no)
+)
