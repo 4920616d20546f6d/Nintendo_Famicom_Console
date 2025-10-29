@@ -1,4 +1,4 @@
-24658105160581
+26419846298826
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71826,6 +71826,13 @@ connector_aux_15p
 0
 15
 15
+Nintendo
+crystal
+
+
+0
+2
+2
 Nintendo
 npth_mounting_2x4mm_nopad
 
