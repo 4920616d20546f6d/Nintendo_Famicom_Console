@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "21d7c392-e737-45ac-9dca-1a32fa110d4c")
 	(paper "A4")
+	(title_block
+		(title "Nintendo Famicom Mainboard")
+		(date "2025-10-30")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -2533,152 +2538,8 @@
 				)
 			)
 			(symbol "RP2C02_1_0"
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "~{RST}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "R/~{W}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "~{DBE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -10.16 0)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at -10.16 -12.7 0)
-					(length 2.54)
-					(name "~{INT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -17.78 0)
-					(length 2.54)
-					(name "RS2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -20.32 0)
-					(length 2.54)
-					(name "RS1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -22.86 0)
-					(length 2.54)
-					(name "RS0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at -10.16 -25.4 0)
+					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "D7"
 						(effects
@@ -2696,7 +2557,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -10.16 -27.94 0)
+					(at -10.16 -5.08 0)
 					(length 2.54)
 					(name "D6"
 						(effects
@@ -2714,7 +2575,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -10.16 -30.48 0)
+					(at -10.16 -7.62 0)
 					(length 2.54)
 					(name "D5"
 						(effects
@@ -2732,7 +2593,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -10.16 -33.02 0)
+					(at -10.16 -10.16 0)
 					(length 2.54)
 					(name "D4"
 						(effects
@@ -2750,7 +2611,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -10.16 -35.56 0)
+					(at -10.16 -12.7 0)
 					(length 2.54)
 					(name "D3"
 						(effects
@@ -2768,7 +2629,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -10.16 -38.1 0)
+					(at -10.16 -15.24 0)
 					(length 2.54)
 					(name "D2"
 						(effects
@@ -2786,7 +2647,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -10.16 -40.64 0)
+					(at -10.16 -17.78 0)
 					(length 2.54)
 					(name "D1"
 						(effects
@@ -2804,7 +2665,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -10.16 -43.18 0)
+					(at -10.16 -20.32 0)
 					(length 2.54)
 					(name "D0"
 						(effects
@@ -2814,6 +2675,150 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -22.86 0)
+					(length 2.54)
+					(name "RS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -25.4 0)
+					(length 2.54)
+					(name "RS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -27.94 0)
+					(length 2.54)
+					(name "RS0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -33.02 0)
+					(length 2.54)
+					(name "R/~{W}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -35.56 0)
+					(length 2.54)
+					(name "~{DBE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -38.1 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 -40.64 0)
+					(length 2.54)
+					(name "~{INT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -43.18 0)
+					(length 2.54)
+					(name "~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4644,6 +4649,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "RESET"
 		(exclude_from_sim no)
@@ -4684,6 +4790,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba787479-bd32-4cc1-b825-ff1584acfd99")
+	)
+	(junction
+		(at 53.34 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d98855bc-63ef-40b7-ba50-927eac7b88ac")
 	)
 	(wire
 		(pts
@@ -4757,6 +4869,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 165.1) (xy 53.34 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d972e66-e201-485c-8b0c-fb73777ba227")
+	)
+	(wire
+		(pts
 			(xy 53.34 170.18) (xy 53.34 173.99)
 		)
 		(stroke
@@ -4797,7 +4919,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 167.64) (xy 53.34 163.83)
+			(xy 53.34 167.64) (xy 53.34 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4814,6 +4936,16 @@
 			(type default)
 		)
 		(uuid "9cabce5e-e22b-4f4b-82d0-489102ed6aa2")
+	)
+	(wire
+		(pts
+			(xy 53.34 165.1) (xy 54.61 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c083aa-55ae-4192-aba0-9b101464ee59")
 	)
 	(wire
 		(pts
@@ -5356,6 +5488,73 @@
 			(project "HVC-CPU-GPM-02"
 				(path "/fb646c2d-03fe-45ba-9ef6-fc3f44aca4b4/26b7c6e0-60f8-49cb-b6c9-8a72e0d0f0d6"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 54.61 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "270cdce2-af30-4bc7-9101-4c832cf7e0fa")
+		(property "Reference" "#FLG01"
+			(at 56.515 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 58.42 165.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 54.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d77cb8e-9741-4b08-af61-002bd4bf1149")
+		)
+		(instances
+			(project ""
+				(path "/fb646c2d-03fe-45ba-9ef6-fc3f44aca4b4/26b7c6e0-60f8-49cb-b6c9-8a72e0d0f0d6"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "1f10f642-2c4f-491c-84ee-69864a95457a")
 	(paper "A4")
+	(title_block
+		(title "Nintendo Famicom Mainboard")
+		(date "2025-10-30")
+		(rev "1")
+	)
 	(lib_symbols)
 	(text "31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60"
 		(exclude_from_sim no)

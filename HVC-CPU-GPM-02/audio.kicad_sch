@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "f0c999f8-74ce-4288-866d-26cb62cc5656")
 	(paper "A4")
+	(title_block
+		(title "Nintendo Famicom Mainboard")
+		(date "2025-10-30")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -943,276 +948,6 @@
 				(pin passive line
 					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -10.16 0)
-					(length 2.54)
-					(name "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -12.7 0)
-					(length 2.54)
-					(name "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -15.24 0)
-					(length 2.54)
-					(name "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -17.78 0)
-					(length 2.54)
-					(name "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -20.32 0)
-					(length 2.54)
-					(name "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -22.86 0)
-					(length 2.54)
-					(name "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -25.4 0)
-					(length 2.54)
-					(name "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -27.94 0)
-					(length 2.54)
-					(name "A10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -30.48 0)
-					(length 2.54)
-					(name "A11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -33.02 0)
-					(length 2.54)
-					(name "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -35.56 0)
-					(length 2.54)
-					(name "A13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -38.1 0)
-					(length 2.54)
-					(name "A14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -40.64 0)
-					(length 2.54)
 					(name "D0"
 						(effects
 							(font
@@ -1229,7 +964,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -43.18 0)
+					(at -10.16 -5.08 0)
 					(length 2.54)
 					(name "D1"
 						(effects
@@ -1247,7 +982,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -45.72 0)
+					(at -10.16 -7.62 0)
 					(length 2.54)
 					(name "D2"
 						(effects
@@ -1265,7 +1000,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -48.26 0)
+					(at -10.16 -10.16 0)
 					(length 2.54)
 					(name "D3"
 						(effects
@@ -1283,7 +1018,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -50.8 0)
+					(at -10.16 -12.7 0)
 					(length 2.54)
 					(name "D4"
 						(effects
@@ -1301,7 +1036,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -53.34 0)
+					(at -10.16 -15.24 0)
 					(length 2.54)
 					(name "D5"
 						(effects
@@ -1319,7 +1054,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -55.88 0)
+					(at -10.16 -17.78 0)
 					(length 2.54)
 					(name "D6"
 						(effects
@@ -1337,7 +1072,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -58.42 0)
+					(at -10.16 -20.32 0)
 					(length 2.54)
 					(name "D7"
 						(effects
@@ -1347,6 +1082,276 @@
 						)
 					)
 					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -22.86 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -25.4 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -27.94 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -30.48 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -33.02 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -35.56 0)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -38.1 0)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -40.64 0)
+					(length 2.54)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -43.18 0)
+					(length 2.54)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -45.72 0)
+					(length 2.54)
+					(name "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -48.26 0)
+					(length 2.54)
+					(name "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -50.8 0)
+					(length 2.54)
+					(name "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -53.34 0)
+					(length 2.54)
+					(name "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -55.88 0)
+					(length 2.54)
+					(name "A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -58.42 0)
+					(length 2.54)
+					(name "A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2605,34 +2610,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:PNP"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_BJT:Q_PNP_CBE"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at -2.54 7.62 0)
+				(at 5.08 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "PNP"
-				(at -2.54 5.08 0)
+			(property "Value" "Q_PNP_CBE"
+				(at 5.08 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 35.56 0 0)
+				(at 5.08 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2640,16 +2645,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-				(at 35.56 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2658,7 +2654,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "PNP"
+			(property "Description" "PNP transistor, collector/base/emitter"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2667,7 +2663,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Type" "GUMMELPOON"
+			(property "ki_keywords" "BJT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2676,31 +2672,13 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=C 2=B 3=E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PNP_0_1"
+			(symbol "Q_PNP_CBE_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2709,7 +2687,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+						(xy 0.635 1.905) (xy 0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
@@ -2733,7 +2711,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -2756,7 +2734,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -2767,7 +2745,7 @@
 					)
 				)
 			)
-			(symbol "PNP_1_1"
+			(symbol "Q_PNP_CBE_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2786,7 +2764,7 @@
 						)
 					)
 				)
-				(pin open_collector line
+				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "C"
@@ -2804,7 +2782,7 @@
 						)
 					)
 				)
-				(pin open_emitter line
+				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "E"
@@ -3815,7 +3793,7 @@
 				)
 			)
 		)
-		(property "Value" "CARTRIGE SLOT"
+		(property "Value" "CARTRIDGE SLOT"
 			(at 210.82 90.17 0)
 			(effects
 				(font
@@ -5375,7 +5353,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PNP")
+		(lib_id "Transistor_BJT:Q_PNP_CBE")
 		(at 78.74 167.64 0)
 		(mirror x)
 		(unit 1)
@@ -5403,7 +5381,7 @@
 			)
 		)
 		(property "Footprint" "Nintendo:PACKAGE_TRANSISTOR_FTR"
-			(at 114.3 167.64 0)
+			(at 83.82 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,8 +5389,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 114.3 167.64 0)
+		(property "Datasheet" "~"
+			(at 78.74 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,7 +5398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Description" "PNP transistor, collector/base/emitter"
 			(at 78.74 167.64 0)
 			(effects
 				(font
