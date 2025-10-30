@@ -611,7 +611,7 @@
         }
       ],
       "filter_string": "",
-      "group_symbols": false,
+      "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
@@ -685,6 +685,10 @@
     [
       "26b7c6e0-60f8-49cb-b6c9-8a72e0d0f0d6",
       "Power and Mechanical"
+    ],
+    [
+      "dcbba2dd-3422-485b-b9ca-dba25e9eaba4",
+      "Technical Information"
     ]
   ],
   "text_variables": {}

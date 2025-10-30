@@ -2082,21 +2082,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 2.54 4.572 0)
+				(at 0 7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "{value}"
-				(at 2.032 1.778 0)
+				(at 0 4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -2594,8 +2592,8 @@
 			)
 			(symbol "74LS368_3_1"
 				(rectangle
-					(start -5.08 0)
-					(end 5.08 -10.16)
+					(start -2.54 0)
+					(end 2.54 -10.16)
 					(stroke
 						(width 0)
 						(type solid)
@@ -4198,7 +4196,7 @@
 				)
 			)
 		)
-		(property "Value" "12"
+		(property "Value" "12k"
 			(at 93.98 83.82 90)
 			(effects
 				(font
@@ -5187,7 +5185,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "10n"
 			(at 214.63 123.1899 0)
 			(effects
 				(font

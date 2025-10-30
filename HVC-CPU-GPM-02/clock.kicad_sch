@@ -1820,7 +1820,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "10n"
 			(at 106.68 129.5399 0)
 			(effects
 				(font
@@ -2092,7 +2092,7 @@
 				)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "10n"
 			(at 132.08 91.44 90)
 			(effects
 				(font
@@ -2435,7 +2435,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "10n"
 			(at 106.68 99.0599 0)
 			(effects
 				(font
@@ -2738,7 +2738,7 @@
 				)
 			)
 		)
-		(property "Value" "0.01u"
+		(property "Value" "10n"
 			(at 132.08 104.14 90)
 			(effects
 				(font
