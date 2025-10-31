@@ -1,0 +1,156 @@
+(footprint "L_Axial_NoSilk_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Murata BL01RN1A2A2, Axial, Horizontal, pin pitch=10.00mm, length*diameter=5*3.6mm, https://www.murata.com/en-global/products/productdetail?partno=BL01RN1A2A2%23")
+	(tags "inductor axial horizontal")
+	(property "Reference" "REF**"
+		(at 5 -3 0)
+		(layer "F.SilkS")
+		(uuid "26be4f57-3212-490f-8d50-d526eaee19e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Axial_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2"
+		(at 5 3 0)
+		(layer "F.Fab")
+		(uuid "2f81c34a-ec1c-4116-bea0-7323cfdd0f41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d5e6598-eebd-466e-846e-406a2321c738")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee61b846-efd2-4546-b45d-5d5af431b742")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c62bf52c-6513-426a-986a-9360b73b17f0")
+	)
+	(fp_line
+		(start 2.5 -1.8)
+		(end 2.5 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a9596db-46f6-4516-bfec-d589f4aa91dc")
+	)
+	(fp_line
+		(start 2.5 1.8)
+		(end 7.5 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "032f9ab2-6264-496a-9648-2518a0ff9d06")
+	)
+	(fp_line
+		(start 7.5 -1.8)
+		(end 2.5 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e06c15ea-27f6-4869-aa5d-69cec33c0fd1")
+	)
+	(fp_line
+		(start 7.5 1.8)
+		(end 7.5 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c96c8e89-4194-414a-85f7-ff103fb35e5a")
+	)
+	(fp_line
+		(start 10 0)
+		(end 7.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc046385-5e83-4d5a-bc9b-b24a128dc6ee")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5 0 0)
+		(layer "F.Fab")
+		(uuid "8f973f0c-339e-480c-b116-50ab82360c15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "44084cc6-5798-492e-bb83-79771788013d")
+	)
+	(pad "2" thru_hole oval
+		(at 10 0)
+		(size 1.6 1.6)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9e08e7f-98b7-4bc1-a49f-26e9694102fc")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Axial_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

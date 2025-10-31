@@ -59,7 +59,7 @@
 		(start -8.25 -2.5)
 		(end 9 2.25)
 		(stroke
-			(width 0.1)
+			(width 0.3)
 			(type solid)
 		)
 		(fill no)

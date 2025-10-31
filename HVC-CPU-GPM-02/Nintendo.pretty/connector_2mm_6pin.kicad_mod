@@ -58,17 +58,6 @@
 		(start -7 -3)
 		(end 7 3)
 		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "bd619468-3061-41a2-a598-f148cc11ad88")
-	)
-	(fp_rect
-		(start -7 -3)
-		(end 7 3)
-		(stroke
 			(width 0.05)
 			(type default)
 		)
@@ -118,14 +107,14 @@
 		(at -7 0)
 		(size 1.8 1.8)
 		(drill 1.6)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "e6045be9-be67-4299-9b9d-db528d1ec952")
 	)
 	(pad "" np_thru_hole circle
 		(at 7 0)
 		(size 1.8 1.8)
 		(drill 1.6)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "f21b8f37-4ea6-4697-8f14-451d2664c1a9")
 	)
 	(pad "1" thru_hole roundrect

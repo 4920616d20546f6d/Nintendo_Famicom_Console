@@ -1,0 +1,116 @@
+(footprint "C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C, Disc series, Radial, pin pitch=3.0mm, diameter*width=3*2mm^2, Capacitor")
+	(tags "C Disc series Radial pin pitch 3.0mm diameter 3mm width 2mm Capacitor")
+	(property "Reference" "REF**"
+		(at 1.5 -2.25 0)
+		(layer "F.SilkS")
+		(uuid "c8261f61-1eb5-496b-b7fa-133795177f09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(at 0 3.1 0)
+		(layer "F.Fab")
+		(uuid "21fd4019-e752-40d7-be86-6775b262b047")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96b4ffe9-97e3-47b9-9e54-ebf32e18c9b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2ec0549-0b5d-4f30-8fc8-d1dd8893e516")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -0.3 -0.75)
+		(end 3.3 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9cccd6fd-b689-44fd-893e-c33155d0593d")
+	)
+	(fp_rect
+		(start -0.25 -1)
+		(end 3.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1ed7ea61-b756-477c-bbc6-7279581b1b58")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.25 0 0)
+		(layer "F.Fab")
+		(uuid "9e4f4625-c711-41b6-820d-c112fafd4d11")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7b337f29-1247-4b10-8db1-4356c0288f88")
+	)
+	(pad "2" thru_hole circle
+		(at 3 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5b14e10-4878-4a40-8a0e-427ac071a3d1")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D3.0mm_W2.0mm_P2.50mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

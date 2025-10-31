@@ -59,9 +59,9 @@
 		(end 1.27 1.27)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "50a35324-e08c-4288-b558-e408ecf04fd9")
 	)
 	(fp_rect
@@ -69,10 +69,10 @@
 		(end 6.35 1.27)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "9ce87664-7d75-40a6-8edd-11bde4e3d0c8")
 	)
 	(fp_text user "${REFERENCE}"
