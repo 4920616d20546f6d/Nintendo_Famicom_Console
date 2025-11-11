@@ -1,0 +1,142 @@
+(footprint "MIC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8629a3f9-d8a2-44a2-889e-2adf845bd0ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1515e0f9-fdfb-4bf0-8574-3371bfb49d39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f083c485-d693-432b-a4dd-0c64d0b1903d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5f24179-19bf-4c1e-9386-61895905c67b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "166e92ef-641d-4435-bf73-909dbe3a203e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole custom
+		(at 0 0 270)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.25)
+		(clearance 0)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1 1.096276) (xy 1 -1.139784)
+					(arc
+						(start 0.999995 -1.139788)
+						(mid -0.000003 -1.521751)
+						(end -1 -1.139784)
+					)
+					(xy -1 1.096276)
+					(arc
+						(start -0.999998 1.096283)
+						(mid 0 1.478246)
+						(end 0.999997 1.096279)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "e92d5754-fd11-4363-98f3-2d260cb6a2db")
+	)
+	(pad "2" thru_hole custom
+		(at 0 -3.5 270)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.25)
+		(clearance 0)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1 1.096276) (xy 1 -1.139784)
+					(arc
+						(start 0.999995 -1.139788)
+						(mid -0.000003 -1.521751)
+						(end -1 -1.139784)
+					)
+					(xy -1 1.096276)
+					(arc
+						(start -0.999998 1.096283)
+						(mid 0 1.478246)
+						(end 0.999997 1.096279)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "59707aeb-159d-4d78-9a5b-ef84637b323e")
+	)
+	(embedded_fonts no)
+)

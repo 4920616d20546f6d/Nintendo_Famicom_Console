@@ -1,0 +1,108 @@
+(footprint "conn_4pin_4p"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.125 -2.625 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ca91ea01-f83a-4467-bea3-35f505d1e22a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0.125 -9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2560143d-0e13-4065-8bd8-fa63bcd34064")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0f5bef2-335e-475c-951d-d61bd773bb71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "533bce45-f0cc-4f6e-8768-d2b08dd95fd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 1.5 1.875 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0a5ae3ea-8ab4-492a-b8b4-b9784c92a32f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.5)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers no)
+		(uuid "48b242b2-107a-455c-8f7a-40ff6b2ba912")
+	)
+	(pad "2" thru_hole circle
+		(at 4 0)
+		(size 2 2)
+		(drill 1.5)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers no)
+		(uuid "4c748b60-b201-4512-aa7c-120b551f4be4")
+	)
+	(pad "3" thru_hole circle
+		(at 8 0)
+		(size 2 2)
+		(drill 1.5)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers no)
+		(uuid "49f9e462-522c-4619-9cd2-50e0b05056d2")
+	)
+	(pad "4" thru_hole circle
+		(at 12 0)
+		(size 2 2)
+		(drill 1.5)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers no)
+		(uuid "a7a279df-3b13-4336-a459-fe78d4e01eb9")
+	)
+	(embedded_fonts no)
+)

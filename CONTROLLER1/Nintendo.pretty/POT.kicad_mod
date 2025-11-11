@@ -1,0 +1,140 @@
+(footprint "POT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "effd4d10-ac92-4a68-bc67-4ce0da7c9d7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8ce4b8b-2a2a-4024-9028-ec6f6e5b5646")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3972014f-5c1e-44e0-8c1c-7e4222f26e64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85179907-1cb1-4826-a20c-0dba41168a61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -6.7 -1)
+		(end 6.7 1)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.3")
+		(uuid "74f01cfe-4723-4eab-9487-7750fe7b1449")
+	)
+	(fp_rect
+		(start -15.125 -1.25)
+		(end -4.375 1.25)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.4")
+		(uuid "aff4e834-dee7-4c00-bcd3-071f90ab03af")
+	)
+	(fp_rect
+		(start -5.75 2)
+		(end 12 4.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.4")
+		(uuid "36a145ae-a384-4580-adfb-90cd6dd586ac")
+	)
+	(fp_rect
+		(start 5 -1.25)
+		(end 12 1.25)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "User.4")
+		(uuid "6abc5d30-313b-439f-b210-814bac04c5a6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "82bccd1e-9140-4d7d-a04b-f035e526205b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -6.75 0)
+		(size 2 2)
+		(layers "F.Cu")
+		(solder_mask_margin 0.25)
+		(clearance 0)
+		(uuid "30ee788d-8430-4292-b206-afc52402f752")
+	)
+	(pad "2" smd rect
+		(at 6.75 3.25)
+		(size 2 2)
+		(layers "F.Cu")
+		(solder_mask_margin 0.25)
+		(clearance 0)
+		(uuid "ab91a5f9-1437-425e-b2d5-a813fb001816")
+	)
+	(pad "3" smd rect
+		(at 6.75 0)
+		(size 2 2)
+		(layers "F.Cu")
+		(solder_mask_margin 0.25)
+		(clearance 0)
+		(uuid "00be69ea-1035-453f-b6ec-6d3ee7404039")
+	)
+	(embedded_fonts no)
+)
