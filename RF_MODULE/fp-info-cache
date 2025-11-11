@@ -1,4 +1,4 @@
-37017834461335
+42306426032708
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104272,6 +104272,13 @@ C_pol_10.5d_5p
 2
 2
 nintendo
+D_5p
+
+
+0
+2
+2
+nintendo
 L_4x4
 
 
@@ -104306,6 +104313,20 @@ Q_TO92_2.54p_ECB
 0
 3
 3
+nintendo
+R_5p
+
+
+0
+2
+2
+nintendo
+R_10p
+
+
+0
+2
+2
 nintendo
 TO220-vreg
 

@@ -1,0 +1,160 @@
+(footprint "D_5p"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.125 -2.625 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ca91ea01-f83a-4467-bea3-35f505d1e22a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0.125 -9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2560143d-0e13-4065-8bd8-fa63bcd34064")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0f5bef2-335e-475c-951d-d61bd773bb71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "533bce45-f0cc-4f6e-8768-d2b08dd95fd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.75 0)
+		(end 2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c81c29b2-8fa7-40a3-b461-3bb843faffb9")
+	)
+	(fp_line
+		(start 2 -0.5)
+		(end 2 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "54a5ce1f-2b3a-4cc6-be6d-6d30320a506c")
+	)
+	(fp_line
+		(start 2 0)
+		(end 2.75 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6ee29da7-f03c-4e1e-9531-119a11a81b85")
+	)
+	(fp_line
+		(start 2.75 -0.5)
+		(end 2.75 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "af135156-cbe9-45e0-9596-236e8940b986")
+	)
+	(fp_line
+		(start 2.75 0)
+		(end 4.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ecc6f2ac-e8e9-4a5d-922c-739780f510b6")
+	)
+	(fp_line
+		(start 2.75 0.5)
+		(end 2 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9821a4e0-826b-45a1-84cb-595aa71c320c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.5 1.875 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0a5ae3ea-8ab4-492a-b8b4-b9784c92a32f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers no)
+		(uuid "bb06f8b3-02d0-4b74-a736-2225a144f4da")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers no)
+		(uuid "38a20e83-ea09-48de-aa1a-9993168d1fd6")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-34_SOD68_P10.16mm_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.5 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
