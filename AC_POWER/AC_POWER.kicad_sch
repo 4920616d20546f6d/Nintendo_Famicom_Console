@@ -1046,9 +1046,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "102 vac in\n20.5 vac H-H\n10.25 vac H-N"
+	(text "Rated input\n100V AC 50/60Hz 18VA"
 		(exclude_from_sim no)
-		(at 23.876 50.546 0)
+		(at 87.63 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1056,9 +1056,29 @@
 		)
 		(uuid "193a8196-c357-476f-a7d5-a92f4adbfb68")
 	)
+	(text "13.5 VDC no load"
+		(exclude_from_sim no)
+		(at 150.876 83.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "30552936-ef61-4441-bfd9-5c9a5a8fbc33")
+	)
+	(text "Rated output\n10 VDC 350mA"
+		(exclude_from_sim no)
+		(at 203.708 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "476c1ccb-1ef1-407e-b737-d0bfcb1d1f0b")
+	)
 	(text "1.8m VW-1SC\n24AWG 0.51mm"
 		(exclude_from_sim no)
-		(at 112.268 51.054 0)
+		(at 175.768 89.154 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1068,7 +1088,7 @@
 	)
 	(text "10.25 VAC"
 		(exclude_from_sim no)
-		(at 55.626 51.054 0)
+		(at 119.126 89.154 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1078,7 +1098,7 @@
 	)
 	(text "10.25 VAC"
 		(exclude_from_sim no)
-		(at 55.626 48.768 0)
+		(at 119.126 86.868 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1087,26 +1107,26 @@
 		(uuid "f41c9803-e0f8-4bb5-bfa1-af08ed3b51d5")
 	)
 	(junction
-		(at 80.01 46.99)
+		(at 143.51 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "329f3c6e-abe3-4b02-a2bf-e23840e78ea0")
 	)
 	(junction
-		(at 80.01 60.96)
+		(at 143.51 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a992aa11-7e8c-43b0-afa0-df7b440807a7")
 	)
 	(junction
-		(at 72.39 46.99)
+		(at 135.89 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca83cd2e-02a2-4643-a190-3271e2ab8ee7")
 	)
 	(wire
 		(pts
-			(xy 50.8 46.99) (xy 64.77 46.99)
+			(xy 114.3 85.09) (xy 128.27 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1116,7 +1136,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 60.96) (xy 96.52 60.96)
+			(xy 143.51 99.06) (xy 160.02 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1126,7 +1146,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 46.99) (xy 96.52 53.34)
+			(xy 160.02 85.09) (xy 160.02 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1136,7 +1156,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 46.99) (xy 72.39 52.07)
+			(xy 135.89 85.09) (xy 135.89 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1146,7 +1166,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 46.99) (xy 80.01 46.99)
+			(xy 160.02 85.09) (xy 143.51 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1156,7 +1176,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 58.42) (xy 130.81 58.42)
+			(xy 190.5 96.52) (xy 194.31 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1166,7 +1186,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 52.07) (xy 64.77 52.07)
+			(xy 114.3 90.17) (xy 128.27 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1176,7 +1196,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 60.96) (xy 80.01 57.15)
+			(xy 143.51 99.06) (xy 143.51 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1186,7 +1206,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 49.53) (xy 62.23 60.96)
+			(xy 125.73 87.63) (xy 125.73 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1196,7 +1216,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 54.61) (xy 127 58.42)
+			(xy 190.5 92.71) (xy 190.5 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +1226,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 54.61) (xy 96.52 60.96)
+			(xy 160.02 92.71) (xy 160.02 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1216,7 +1236,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 49.53) (xy 80.01 46.99)
+			(xy 143.51 87.63) (xy 143.51 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1226,7 +1246,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 50.8) (xy 130.81 50.8)
+			(xy 190.5 88.9) (xy 194.31 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1236,7 +1256,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 46.99) (xy 72.39 46.99)
+			(xy 143.51 85.09) (xy 135.89 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1246,7 +1266,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 60.96) (xy 80.01 60.96)
+			(xy 125.73 99.06) (xy 143.51 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1256,7 +1276,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 53.34) (xy 127 50.8)
+			(xy 190.5 91.44) (xy 190.5 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1266,7 +1286,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 63.5) (xy 80.01 60.96)
+			(xy 143.51 101.6) (xy 143.51 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1276,7 +1296,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 53.34) (xy 127 53.34)
+			(xy 160.02 91.44) (xy 190.5 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1286,7 +1306,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 49.53) (xy 62.23 49.53)
+			(xy 114.3 87.63) (xy 125.73 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1296,7 +1316,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 54.61) (xy 127 54.61)
+			(xy 160.02 92.71) (xy 190.5 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1306,7 +1326,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4002")
-		(at 68.58 46.99 180)
+		(at 132.08 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1315,7 +1335,7 @@
 		(fields_autoplaced yes)
 		(uuid "11fd929a-e98f-42ad-972e-ca929afd44f8")
 		(property "Reference" "D1"
-			(at 68.58 40.64 0)
+			(at 132.08 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,7 +1343,7 @@
 			)
 		)
 		(property "Value" "1N4002"
-			(at 68.58 43.18 0)
+			(at 132.08 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1331,7 +1351,7 @@
 			)
 		)
 		(property "Footprint" "Nintendo:diode"
-			(at 68.58 42.545 0)
+			(at 132.08 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,7 +1360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 46.99 0)
+			(at 132.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +1369,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 46.99 0)
+			(at 132.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,7 +1378,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 68.58 46.99 0)
+			(at 132.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,7 +1387,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 68.58 46.99 0)
+			(at 132.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,16 +1412,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 80.01 67.31 180)
+		(at 143.51 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "12b92c20-e7cd-4f92-999c-be02f64a0b00")
 		(property "Reference" "R1"
-			(at 82.55 66.0399 0)
+			(at 146.05 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1410,7 +1430,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 82.55 68.5799 0)
+			(at 146.05 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,7 +1439,7 @@
 			)
 		)
 		(property "Footprint" "Nintendo:resistor"
-			(at 81.788 67.31 90)
+			(at 145.288 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,7 +1448,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 67.31 0)
+			(at 143.51 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,7 +1457,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 80.01 67.31 0)
+			(at 143.51 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1482,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 80.01 71.12 180)
+		(at 143.51 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1471,7 +1491,7 @@
 		(fields_autoplaced yes)
 		(uuid "2008dcfe-0032-467e-a8fe-4e9c134c625b")
 		(property "Reference" "TP1"
-			(at 82.55 73.1519 0)
+			(at 146.05 111.2519 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,7 +1500,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 82.55 75.6919 0)
+			(at 146.05 113.7919 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,7 +1509,7 @@
 			)
 		)
 		(property "Footprint" "Nintendo:testpoint"
-			(at 74.93 71.12 0)
+			(at 138.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1498,7 +1518,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 71.12 0)
+			(at 138.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,7 +1527,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 80.01 71.12 0)
+			(at 143.51 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,7 +1549,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 80.01 53.34 0)
+		(at 143.51 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1538,7 +1558,7 @@
 		(fields_autoplaced yes)
 		(uuid "7064b7d8-b017-47af-b399-52d19c9f555e")
 		(property "Reference" "C1"
-			(at 83.82 51.1809 0)
+			(at 147.32 89.2809 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1547,7 +1567,7 @@
 			)
 		)
 		(property "Value" "2200uF 16V"
-			(at 83.82 53.7209 0)
+			(at 147.32 91.8209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,7 +1576,7 @@
 			)
 		)
 		(property "Footprint" "Nintendo:capacitor"
-			(at 80.9752 57.15 0)
+			(at 144.4752 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 53.34 0)
+			(at 143.51 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +1594,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 53.34 0)
+			(at 143.51 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1599,7 +1619,7 @@
 	)
 	(symbol
 		(lib_id "Nintendo:transformer")
-		(at 44.45 46.99 0)
+		(at 107.95 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1608,7 +1628,7 @@
 		(fields_autoplaced yes)
 		(uuid "8246fdda-5cea-4b33-86e5-9e328dae2123")
 		(property "Reference" "T1"
-			(at 43.18 41.91 0)
+			(at 106.68 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1616,7 +1636,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 43.18 44.45 0)
+			(at 106.68 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,7 +1644,7 @@
 			)
 		)
 		(property "Footprint" "Nintendo:transformer"
-			(at 44.45 46.99 0)
+			(at 107.95 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1633,7 +1653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 46.99 0)
+			(at 107.95 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +1662,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 46.99 0)
+			(at 107.95 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1670,7 +1690,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4002")
-		(at 68.58 52.07 180)
+		(at 132.08 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1679,7 +1699,7 @@
 		(fields_autoplaced yes)
 		(uuid "d01290ec-4e8a-42e0-85ae-9c2469baa3ef")
 		(property "Reference" "D2"
-			(at 68.58 55.88 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1687,7 +1707,7 @@
 			)
 		)
 		(property "Value" "1N4002"
-			(at 68.58 58.42 0)
+			(at 132.08 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +1715,7 @@
 			)
 		)
 		(property "Footprint" "Nintendo:diode"
-			(at 68.58 47.625 0)
+			(at 132.08 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +1724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 52.07 0)
+			(at 132.08 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1713,7 +1733,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 52.07 0)
+			(at 132.08 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1722,7 +1742,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 68.58 52.07 0)
+			(at 132.08 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,7 +1751,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 68.58 52.07 0)
+			(at 132.08 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1776,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Power")
-		(at 130.81 55.88 180)
+		(at 194.31 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1764,7 +1784,7 @@
 		(dnp no)
 		(uuid "f4581fbf-01d4-42e7-9585-230fb5a4d070")
 		(property "Reference" "J1"
-			(at 133.35 53.0859 0)
+			(at 196.85 91.1859 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,7 +1793,7 @@
 			)
 		)
 		(property "Value" "5.5 OD x 2.1 ID"
-			(at 133.35 55.6259 0)
+			(at 196.85 93.7259 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1782,7 +1802,7 @@
 			)
 		)
 		(property "Footprint" "Nintendo:connector"
-			(at 130.81 54.61 0)
+			(at 194.31 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1791,7 +1811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 54.61 0)
+			(at 194.31 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,7 +1820,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 55.88 0)
+			(at 194.31 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
