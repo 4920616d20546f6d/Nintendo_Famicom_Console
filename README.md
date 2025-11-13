@@ -1,5 +1,5 @@
 # Prihect Summary
-This project documents the Nintendo Family Computer from Japan. The goal is to provide complete, varified, schematics and PCB for every version of the console and essential accessories.
+This project documents the Nintendo Family Computer from Japan. The goal is to provide complete, verified, schematics and PCB for every version of the console and essential accessories.
 
 
 
