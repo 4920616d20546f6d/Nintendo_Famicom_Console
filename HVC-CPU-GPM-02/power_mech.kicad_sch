@@ -8029,7 +8029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://github.com/emu-russia/breaks"
 			(at 133.35 39.37 0)
 			(effects
 				(font
@@ -8664,7 +8664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://github.com/emu-russia/breaks"
 			(at 158.75 39.37 0)
 			(effects
 				(font
