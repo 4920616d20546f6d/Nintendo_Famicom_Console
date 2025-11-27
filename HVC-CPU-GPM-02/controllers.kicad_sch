@@ -6551,7 +6551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 77.7748 90.17 0)
 			(effects
 				(font
@@ -6685,7 +6685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 82.8548 46.99 0)
 			(effects
 				(font
@@ -6752,7 +6752,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 101.2952 153.67 0)
 			(effects
 				(font
@@ -6822,7 +6822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP12"
+		(property "Footprint" "Nintendo:R_Array_SIP12"
 			(at 141.478 99.06 90)
 			(effects
 				(font
@@ -6920,7 +6920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 82.8548 90.17 0)
 			(effects
 				(font
@@ -6990,7 +6990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP12"
+		(property "Footprint" "Nintendo:R_Array_SIP12"
 			(at 182.118 99.06 90)
 			(effects
 				(font
@@ -7164,7 +7164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 91.1352 153.67 0)
 			(effects
 				(font
@@ -7231,7 +7231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Nintendo:DIP-16_W7.62mm"
 			(at 227.33 147.32 0)
 			(effects
 				(font
@@ -7240,7 +7240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS368"
+		(property "Datasheet" "kicad-embed://74LS368.pdf"
 			(at 227.33 147.32 0)
 			(effects
 				(font
@@ -7340,7 +7340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 70.8152 153.67 0)
 			(effects
 				(font
@@ -7517,7 +7517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP12"
+		(property "Footprint" "Nintendo:R_Array_SIP12"
 			(at 168.148 26.67 90)
 			(effects
 				(font
@@ -7618,7 +7618,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP12"
+		(property "Footprint" "Nintendo:R_Array_SIP12"
 			(at 182.372 26.67 90)
 			(effects
 				(font
@@ -7718,7 +7718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 191.4652 63.5 0)
 			(effects
 				(font
@@ -7788,7 +7788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP12"
+		(property "Footprint" "Nintendo:R_Array_SIP12"
 			(at 157.988 26.67 90)
 			(effects
 				(font
@@ -7885,7 +7885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 50.4952 153.67 0)
 			(effects
 				(font
@@ -7952,7 +7952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 80.9752 153.67 0)
 			(effects
 				(font
@@ -8022,7 +8022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP12"
+		(property "Footprint" "Nintendo:R_Array_SIP12"
 			(at 151.638 99.06 90)
 			(effects
 				(font
@@ -8119,7 +8119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 116.5352 153.67 0)
 			(effects
 				(font
@@ -8186,7 +8186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 75.8952 153.67 0)
 			(effects
 				(font
@@ -8254,7 +8254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 98.0948 46.99 0)
 			(effects
 				(font
@@ -8387,7 +8387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Nintendo:DIP-16_W7.62mm"
 			(at 227.33 128.27 0)
 			(effects
 				(font
@@ -8396,7 +8396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS368"
+		(property "Datasheet" "kicad-embed://74LS368.pdf"
 			(at 227.33 128.27 0)
 			(effects
 				(font
@@ -8499,7 +8499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP12"
+		(property "Footprint" "Nintendo:R_Array_SIP12"
 			(at 161.798 99.06 90)
 			(effects
 				(font
@@ -8596,7 +8596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Nintendo:DIP-16_W7.62mm"
 			(at 227.33 45.72 0)
 			(effects
 				(font
@@ -8605,7 +8605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS368"
+		(property "Datasheet" "kicad-embed://74LS368.pdf"
 			(at 227.33 45.72 0)
 			(effects
 				(font
@@ -8772,7 +8772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 96.2152 153.67 0)
 			(effects
 				(font
@@ -8840,7 +8840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 87.9348 46.99 0)
 			(effects
 				(font
@@ -8974,7 +8974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 86.0552 153.67 0)
 			(effects
 				(font
@@ -9178,7 +9178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP12"
+		(property "Footprint" "Nintendo:R_Array_SIP12"
 			(at 171.958 99.06 90)
 			(effects
 				(font
@@ -9276,7 +9276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 87.9348 90.17 0)
 			(effects
 				(font
@@ -9476,7 +9476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 106.3752 153.67 0)
 			(effects
 				(font
@@ -9543,7 +9543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 55.5752 153.67 0)
 			(effects
 				(font
@@ -9613,7 +9613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP12"
+		(property "Footprint" "Nintendo:R_Array_SIP12"
 			(at 192.278 99.06 90)
 			(effects
 				(font
@@ -9777,7 +9777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 93.0148 46.99 0)
 			(effects
 				(font
@@ -9844,7 +9844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 111.4552 153.67 0)
 			(effects
 				(font
@@ -9912,7 +9912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 93.0148 90.17 0)
 			(effects
 				(font
@@ -9979,7 +9979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 60.6552 153.67 0)
 			(effects
 				(font
@@ -10113,7 +10113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 98.0948 90.17 0)
 			(effects
 				(font
@@ -10180,7 +10180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 65.7352 153.67 0)
 			(effects
 				(font
@@ -10328,7 +10328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Nintendo:R_Axial_NoSilk_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 181.61 55.118 90)
 			(effects
 				(font

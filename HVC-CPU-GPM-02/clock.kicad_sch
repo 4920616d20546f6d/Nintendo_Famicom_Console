@@ -611,7 +611,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:Q_PNP_CBE"
+		(symbol "Transistor_BJT:Q_NPN_ECB"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -628,7 +628,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_PNP_CBE"
+			(property "Value" "Q_NPN_ECB"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -655,7 +655,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "PNP transistor, collector/base/emitter"
+			(property "Description" "NPN transistor, emitter/collector/base"
 				(at 0 0 0)
 				(effects
 					(font
@@ -673,7 +673,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_PNP_CBE_0_1"
+			(symbol "Q_NPN_ECB_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -698,6 +698,19 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NPN_ECB_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -722,20 +735,9 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -745,8 +747,6 @@
 						(type outline)
 					)
 				)
-			)
-			(symbol "Q_PNP_CBE_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -757,7 +757,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -775,7 +775,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -793,7 +793,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1031,11 +1031,69 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Quartz Crystal Oscillator"
+		(exclude_from_sim no)
+		(at 65.278 87.376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "6db8a8a2-20fa-4f67-aea1-845be4d52431")
+	)
+	(text "Colpitts Crystal Oscillator"
+		(exclude_from_sim no)
+		(at 93.726 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "916c25ef-2277-4921-88b5-9637a6a57899")
+	)
+	(text "Amplifier"
+		(exclude_from_sim no)
+		(at 96.012 104.648 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "9605dab1-b016-4d1e-8760-7281109d4ab4")
+	)
 	(junction
-		(at 77.47 83.82)
+		(at 63.5 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "47ebab1a-a5bf-48cf-8bc6-775ba92d5350")
+		(uuid "02c3d420-5d11-43fd-b137-aaab922a3147")
+	)
+	(junction
+		(at 123.19 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "076e5ec5-f50c-40dc-9b83-4b22f713c2b4")
+	)
+	(junction
+		(at 90.17 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b6b71ab-8b1c-417b-912a-5258e60e090f")
+	)
+	(junction
+		(at 63.5 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cd9a193-a956-4ccc-83e1-e97e0788b5e5")
+	)
+	(junction
+		(at 78.74 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68040aab-3543-48eb-8bb9-0800589229dc")
 	)
 	(junction
 		(at 90.17 121.92)
@@ -1044,60 +1102,32 @@
 		(uuid "7e4267a3-cb44-4c18-9b78-1a3d0136f6df")
 	)
 	(junction
-		(at 90.17 93.98)
+		(at 90.17 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a1f1f647-c4e9-4b56-8262-2b2c60bd3603")
+		(uuid "a937c02b-faa2-41f4-8954-da4874bbd283")
 	)
 	(junction
-		(at 115.57 96.52)
+		(at 90.17 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b94f638f-4032-400f-958d-d287f27a7fb9")
+		(uuid "ab14db6a-c5be-4253-91a4-317c065a8bc7")
 	)
 	(junction
-		(at 77.47 109.22)
+		(at 115.57 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c3a214e0-b723-4422-93f9-0a5ea1671191")
+		(uuid "b12fec6d-6d9f-4ba2-b896-c461134d3f77")
 	)
 	(junction
-		(at 115.57 109.22)
+		(at 90.17 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d7183051-1a7c-4007-8646-1d2179cc21f5")
-	)
-	(junction
-		(at 77.47 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f45ceb76-3f64-4956-9c91-c068e482bfc2")
-	)
-	(junction
-		(at 90.17 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbec9740-3100-4af7-a2c4-b23e56bc2e29")
-	)
-	(junction
-		(at 90.17 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe951688-7c6b-4e15-8603-02ba0734f4c2")
+		(uuid "b2214bff-d351-4ae9-8dd9-6c9a288b0dc5")
 	)
 	(wire
 		(pts
-			(xy 90.17 109.22) (xy 115.57 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05ec3627-5907-4837-bc4c-d9b8cc39d3c2")
-	)
-	(wire
-		(pts
-			(xy 90.17 71.12) (xy 90.17 83.82)
+			(xy 50.8 102.87) (xy 63.5 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1107,7 +1137,27 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 96.52) (xy 115.57 96.52)
+			(xy 123.19 100.33) (xy 123.19 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ceedd5-dab4-4f22-83d7-78af7aed3435")
+	)
+	(wire
+		(pts
+			(xy 78.74 102.87) (xy 90.17 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "167eddda-56ce-448f-ac37-b5de99e454a2")
+	)
+	(wire
+		(pts
+			(xy 125.73 100.33) (xy 123.19 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1117,7 +1167,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 71.12) (xy 77.47 71.12)
+			(xy 50.8 113.03) (xy 50.8 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1127,13 +1177,23 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 109.22) (xy 135.89 109.22)
+			(xy 135.89 113.03) (xy 133.35 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "26808b0b-aa7d-43d8-b2f4-ed6540983496")
+	)
+	(wire
+		(pts
+			(xy 90.17 106.68) (xy 90.17 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c3e244-692c-4418-a260-6e38507065b8")
 	)
 	(wire
 		(pts
@@ -1147,17 +1207,37 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 115.57) (xy 82.55 115.57)
+			(xy 90.17 74.93) (xy 90.17 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fe27cad-3cbe-492d-912b-8347b313cd15")
+		(uuid "37129b1f-88e2-4759-8b95-83c6b324c024")
 	)
 	(wire
 		(pts
-			(xy 102.87 93.98) (xy 90.17 93.98)
+			(xy 90.17 77.47) (xy 90.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e50fd7d-d5fa-4c57-96d4-96991c09f697")
+	)
+	(wire
+		(pts
+			(xy 123.19 113.03) (xy 125.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7c24e9-b1e0-4e1b-b0c2-f9f39ac214c5")
+	)
+	(wire
+		(pts
+			(xy 102.87 77.47) (xy 90.17 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1167,7 +1247,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 83.82) (xy 90.17 83.82)
+			(xy 63.5 105.41) (xy 63.5 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1177,17 +1257,37 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 83.82) (xy 105.41 83.82)
+			(xy 63.5 90.17) (xy 63.5 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e88f66f-a1fa-4c09-ab8b-d193f1d32316")
+		(uuid "4c6b7e20-fa7d-496d-a240-962ebcd655eb")
 	)
 	(wire
 		(pts
-			(xy 138.43 96.52) (xy 135.89 96.52)
+			(xy 63.5 115.57) (xy 78.74 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5a01da-262d-48b8-bbbe-181275777c79")
+	)
+	(wire
+		(pts
+			(xy 90.17 87.63) (xy 90.17 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c80355-6d7c-4339-a955-198adec2a00e")
+	)
+	(wire
+		(pts
+			(xy 135.89 100.33) (xy 133.35 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1197,53 +1297,43 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 124.46) (xy 115.57 109.22)
+			(xy 78.74 105.41) (xy 78.74 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53e1dec9-1dd8-4cac-91ae-a2adec3ee040")
+		(uuid "5cf80ec3-34c5-477f-99ba-ada50a9665d9")
 	)
 	(wire
 		(pts
-			(xy 90.17 93.98) (xy 90.17 99.06)
+			(xy 90.17 106.68) (xy 115.57 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5786c7a5-a8b5-439e-b99e-e30f8653eb4b")
+		(uuid "62887c58-5517-42bf-8171-1933233e083a")
 	)
 	(wire
 		(pts
-			(xy 115.57 109.22) (xy 128.27 109.22)
+			(xy 90.17 90.17) (xy 90.17 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69d63dc2-8bfa-444b-a229-906d3eb583be")
+		(uuid "88e48685-e686-45ec-bfdb-b1f580dc217c")
 	)
 	(wire
 		(pts
-			(xy 113.03 83.82) (xy 115.57 83.82)
+			(xy 90.17 102.87) (xy 90.17 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79f7f110-59ab-45bc-bb75-6f2c47aa23da")
-	)
-	(wire
-		(pts
-			(xy 77.47 109.22) (xy 77.47 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80403250-695b-448a-ba3c-e77474d50189")
+		(uuid "8dbe151e-dfcf-4efa-bcd7-05948fc0d1aa")
 	)
 	(wire
 		(pts
@@ -1257,37 +1347,27 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 106.68) (xy 90.17 109.22)
+			(xy 123.19 106.68) (xy 115.57 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "932f8208-2b4a-4f70-bf35-b40a91dfb6c6")
+		(uuid "a635781a-ca12-439d-b944-4fe2eb3fd52d")
 	)
 	(wire
 		(pts
-			(xy 77.47 109.22) (xy 77.47 83.82)
+			(xy 63.5 90.17) (xy 90.17 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa80c9e2-afee-4d8b-8721-a7c1d714a89b")
+		(uuid "b64c6137-5dad-47b3-936f-deecb25d7547")
 	)
 	(wire
 		(pts
-			(xy 115.57 83.82) (xy 115.57 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b57a65e9-9727-48c1-890e-d4c6d763364e")
-	)
-	(wire
-		(pts
-			(xy 77.47 83.82) (xy 80.01 83.82)
+			(xy 63.5 115.57) (xy 63.5 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1297,17 +1377,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 91.44) (xy 90.17 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c20b19d8-9c5a-4327-a368-ce3b04b95a5a")
-	)
-	(wire
-		(pts
-			(xy 87.63 71.12) (xy 90.17 71.12)
+			(xy 50.8 105.41) (xy 50.8 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1317,27 +1387,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 109.22) (xy 90.17 109.22)
+			(xy 78.74 115.57) (xy 82.55 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5d5601c-1928-42db-90e1-8ff82d156d19")
+		(uuid "c6900014-88a2-49d1-8317-c98a09fe66f8")
 	)
 	(wire
 		(pts
-			(xy 115.57 96.52) (xy 115.57 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb205804-3093-44e1-823d-40fe1b442383")
-	)
-	(wire
-		(pts
-			(xy 80.01 109.22) (xy 77.47 109.22)
+			(xy 78.74 113.03) (xy 78.74 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1347,7 +1407,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 115.57) (xy 77.47 124.46)
+			(xy 63.5 115.57) (xy 63.5 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1367,13 +1427,43 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 109.22) (xy 90.17 110.49)
+			(xy 63.5 100.33) (xy 63.5 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edcba6c7-f597-4894-8508-45b3ca781e26")
+		(uuid "d4a6b977-f617-48c6-8f05-0da8eb0dd617")
+	)
+	(wire
+		(pts
+			(xy 102.87 77.47) (xy 102.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0dd28a1-ec69-45af-9c80-5354816fb095")
+	)
+	(wire
+		(pts
+			(xy 123.19 106.68) (xy 123.19 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e5c87b-9494-459a-bc7e-edb4bfaa544d")
+	)
+	(wire
+		(pts
+			(xy 115.57 106.68) (xy 115.57 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa24da18-299f-40d0-b04d-344f76256e93")
 	)
 	(wire
 		(pts
@@ -1387,7 +1477,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 71.12) (xy 77.47 83.82)
+			(xy 50.8 115.57) (xy 63.5 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1397,7 +1487,7 @@
 	)
 	(hierarchical_label "CPU_CLK"
 		(shape output)
-		(at 138.43 109.22 0)
+		(at 135.89 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1408,7 +1498,7 @@
 	)
 	(hierarchical_label "PPU_CLK"
 		(shape output)
-		(at 138.43 96.52 0)
+		(at 135.89 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1419,7 +1509,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 101.6 0)
+		(at 102.87 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1428,7 +1518,7 @@
 		(fields_autoplaced yes)
 		(uuid "073c7627-4432-4cb3-b7e8-86695e428cf2")
 		(property "Reference" "#PWR031"
-			(at 102.87 107.95 0)
+			(at 102.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,7 +1527,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 106.68 0)
+			(at 102.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1445,7 +1535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 101.6 0)
+			(at 102.87 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 101.6 0)
+			(at 102.87 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +1553,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 101.6 0)
+			(at 102.87 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1485,7 +1575,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 77.47 128.27 180)
+		(at 63.5 128.27 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1494,7 +1584,7 @@
 		(fields_autoplaced yes)
 		(uuid "14fe903a-6b38-4cfd-9654-fa9375b3654e")
 		(property "Reference" "C6"
-			(at 81.28 126.9999 0)
+			(at 67.31 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1503,7 +1593,7 @@
 			)
 		)
 		(property "Value" "330p"
-			(at 81.28 129.5399 0)
+			(at 67.31 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1511,8 +1601,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
-			(at 76.5048 124.46 0)
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
+			(at 62.5348 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1521,7 +1611,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 128.27 0)
+			(at 63.5 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +1620,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 77.47 128.27 0)
+			(at 63.5 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +1645,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 90.17 91.44 0)
+		(at 90.17 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1564,7 +1654,7 @@
 		(fields_autoplaced yes)
 		(uuid "27c4c094-c9cd-4864-a973-f0ddcc2377c5")
 		(property "Reference" "#PWR013"
-			(at 90.17 95.25 0)
+			(at 90.17 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +1663,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 90.17 86.36 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1581,7 +1671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 91.44 0)
+			(at 90.17 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1590,7 +1680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 91.44 0)
+			(at 90.17 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1599,7 +1689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 90.17 91.44 0)
+			(at 90.17 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1647,7 +1737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Nintendo:R_Axial_NoSilk_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 88.392 128.27 90)
 			(effects
 				(font
@@ -1783,7 +1873,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 101.9048 124.46 0)
 			(effects
 				(font
@@ -1827,7 +1917,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 83.82 109.22 270)
+		(at 78.74 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1836,23 +1926,25 @@
 		(fields_autoplaced yes)
 		(uuid "4dab28b5-1408-4436-ac95-2a30e608358b")
 		(property "Reference" "R10"
-			(at 83.82 102.87 90)
+			(at 81.28 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100k"
-			(at 83.82 105.41 90)
+			(at 81.28 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 83.82 107.442 90)
+		(property "Footprint" "Nintendo:R_Axial_NoSilk_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 76.962 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1861,7 +1953,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 109.22 0)
+			(at 78.74 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +1962,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 109.22 0)
+			(at 78.74 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,7 +1987,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 109.22 83.82 0)
+		(at 63.5 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1904,23 +1996,25 @@
 		(fields_autoplaced yes)
 		(uuid "55642810-0341-417b-80f8-5b2bf14aa796")
 		(property "Reference" "X1"
-			(at 109.22 76.2 0)
+			(at 67.31 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "21.47727MHz"
-			(at 109.22 78.74 0)
+			(at 67.31 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Nintendo:crystal"
-			(at 109.22 83.82 0)
+			(at 63.5 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,7 +2023,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 83.82 0)
+			(at 63.5 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +2032,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 109.22 83.82 0)
+			(at 63.5 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,7 +2123,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 132.08 96.52 270)
+		(at 129.54 100.33 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2039,7 +2133,7 @@
 		(fields_autoplaced yes)
 		(uuid "74327be4-44a1-4f15-b998-da21797f6105")
 		(property "Reference" "C5"
-			(at 132.08 88.9 90)
+			(at 129.54 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,15 +2141,15 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 132.08 91.44 90)
+			(at 129.54 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
-			(at 128.27 95.5548 0)
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
+			(at 125.73 99.3648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2064,7 +2158,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 96.52 0)
+			(at 129.54 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,7 +2167,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 132.08 96.52 0)
+			(at 129.54 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2098,7 +2192,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 132.08 0)
+		(at 63.5 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2107,7 +2201,7 @@
 		(fields_autoplaced yes)
 		(uuid "86a46921-476d-451a-aee6-e24bb3ce00eb")
 		(property "Reference" "#PWR029"
-			(at 77.47 138.43 0)
+			(at 63.5 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,7 +2210,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 137.16 0)
+			(at 63.5 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 132.08 0)
+			(at 63.5 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 132.08 0)
+			(at 63.5 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +2236,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 132.08 0)
+			(at 63.5 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2164,7 +2258,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 90.17 102.87 0)
+		(at 90.17 83.82 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2173,7 +2267,7 @@
 		(dnp no)
 		(uuid "9bb47634-f4f3-484c-830e-69fdbdd35c48")
 		(property "Reference" "R11"
-			(at 92.71 101.5999 0)
+			(at 92.71 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2182,7 +2276,7 @@
 			)
 		)
 		(property "Value" "1.2k"
-			(at 92.71 104.1399 0)
+			(at 92.71 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,8 +2284,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 88.392 102.87 90)
+		(property "Footprint" "Nintendo:R_Axial_NoSilk_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 88.392 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2200,7 +2294,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 102.87 0)
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2209,7 +2303,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 90.17 102.87 0)
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +2354,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 114.6048 124.46 0)
 			(effects
 				(font
@@ -2304,7 +2398,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.82 71.12 90)
+		(at 50.8 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2313,23 +2407,25 @@
 		(fields_autoplaced yes)
 		(uuid "b1075ab1-1d41-4700-8f40-e47b71d8efee")
 		(property "Reference" "C1"
-			(at 83.82 63.5 90)
+			(at 54.61 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "18p"
-			(at 83.82 66.04 90)
+			(at 54.61 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
-			(at 87.63 70.1548 0)
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
+			(at 49.8348 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,7 +2434,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 71.12 0)
+			(at 50.8 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2443,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 83.82 71.12 0)
+			(at 50.8 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2372,7 +2468,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 102.87 97.79 180)
+		(at 102.87 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2381,7 +2477,7 @@
 		(fields_autoplaced yes)
 		(uuid "b56f395c-d2c3-4efc-8c23-aa9bf1c2b45d")
 		(property "Reference" "C36"
-			(at 106.68 96.5199 0)
+			(at 106.68 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2486,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 106.68 99.0599 0)
+			(at 106.68 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,8 +2494,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
-			(at 101.9048 93.98 0)
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
+			(at 101.9048 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +2504,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 97.79 0)
+			(at 102.87 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,7 +2513,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 102.87 97.79 0)
+			(at 102.87 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2442,7 +2538,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Trim")
-		(at 83.82 83.82 90)
+		(at 63.5 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2451,23 +2547,25 @@
 		(fields_autoplaced yes)
 		(uuid "c3f26a1b-69bd-4910-bc7f-283754d01053")
 		(property "Reference" "TC1"
-			(at 83.566 76.2 90)
+			(at 67.31 108.2039 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "30p"
-			(at 83.566 78.74 90)
+			(at 67.31 110.7439 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Nintendo:Capacitor_trimmer"
-			(at 83.82 83.82 0)
+			(at 63.5 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,7 +2574,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 83.82 0)
+			(at 63.5 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2583,7 @@
 			)
 		)
 		(property "Description" "Trimmable capacitor"
-			(at 83.82 83.82 0)
+			(at 63.5 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +2673,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_CBE")
+		(lib_id "Transistor_BJT:Q_NPN_ECB")
 		(at 87.63 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2610,7 +2708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://2SC2021.pdf"
 			(at 87.63 115.57 0)
 			(effects
 				(font
@@ -2619,7 +2717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PNP transistor, collector/base/emitter"
+		(property "Description" "NPN transistor, emitter/collector/base"
 			(at 87.63 115.57 0)
 			(effects
 				(font
@@ -2675,7 +2773,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 132.08 109.22 270)
+		(at 129.54 113.03 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2685,7 +2783,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7307bda-2854-40b1-b076-8770f41cb8cb")
 		(property "Reference" "C4"
-			(at 132.08 101.6 90)
+			(at 129.54 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,15 +2791,15 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 132.08 104.14 90)
+			(at 129.54 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
-			(at 128.27 108.2548 0)
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
+			(at 125.73 112.0648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,7 +2808,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 109.22 0)
+			(at 129.54 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +2817,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 132.08 109.22 0)
+			(at 129.54 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)

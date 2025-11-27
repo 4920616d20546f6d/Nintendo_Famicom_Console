@@ -2610,7 +2610,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:Q_PNP_CBE"
+		(symbol "Transistor_BJT:Q_PNP_ECB"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2627,7 +2627,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_PNP_CBE"
+			(property "Value" "Q_PNP_ECB"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -2654,7 +2654,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "PNP transistor, collector/base/emitter"
+			(property "Description" "PNP transistor, emitter/collector/base"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2672,7 +2672,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_PNP_CBE_0_1"
+			(symbol "Q_PNP_ECB_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -2745,7 +2745,7 @@
 					)
 				)
 			)
-			(symbol "Q_PNP_CBE_1_1"
+			(symbol "Q_PNP_ECB_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2756,7 +2756,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2774,7 +2774,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2792,7 +2792,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4048,7 +4048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Nintendo:R_Axial_NoSilk_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 79.502 153.67 90)
 			(effects
 				(font
@@ -4182,7 +4182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Nintendo:R_Axial_NoSilk_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 93.98 89.408 90)
 			(effects
 				(font
@@ -4250,7 +4250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Nintendo:DIP-16_W7.62mm"
 			(at 152.4 92.71 0)
 			(effects
 				(font
@@ -4259,7 +4259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS368"
+		(property "Datasheet" "kicad-embed://74LS368.pdf"
 			(at 152.4 92.71 0)
 			(effects
 				(font
@@ -4362,7 +4362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Nintendo:R_Axial_NoSilk_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 75.692 106.68 90)
 			(effects
 				(font
@@ -4430,7 +4430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Nintendo:R_Axial_NoSilk_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 152.4 113.538 90)
 			(effects
 				(font
@@ -4632,7 +4632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Nintendo:R_Axial_NoSilk_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 85.852 106.68 90)
 			(effects
 				(font
@@ -4832,7 +4832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Axial_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2"
+		(property "Footprint" "Nintendo:L_Axial_NoSilk_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2"
 			(at 95.25 161.798 90)
 			(effects
 				(font
@@ -4900,7 +4900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Nintendo:CP_Radial_D5.0mm_P2.50mm"
 			(at 114.3 98.7552 0)
 			(effects
 				(font
@@ -4968,7 +4968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Nintendo:R_Axial_NoSilk_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 93.98 99.568 90)
 			(effects
 				(font
@@ -5036,7 +5036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Nintendo:R_Axial_NoSilk_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 93.98 79.248 90)
 			(effects
 				(font
@@ -5172,7 +5172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 211.7852 125.73 0)
 			(effects
 				(font
@@ -5240,7 +5240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Axial_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2"
+		(property "Footprint" "Nintendo:L_Axial_NoSilk_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2"
 			(at 204.47 114.3 0)
 			(effects
 				(font
@@ -5310,7 +5310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 102.5652 170.18 0)
 			(effects
 				(font
@@ -5353,7 +5353,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_CBE")
+		(lib_id "Transistor_BJT:Q_PNP_ECB")
 		(at 78.74 167.64 0)
 		(mirror x)
 		(unit 1)
@@ -5389,7 +5389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://2SA937.PDF"
 			(at 78.74 167.64 0)
 			(effects
 				(font
@@ -5398,7 +5398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PNP transistor, collector/base/emitter"
+		(property "Description" "PNP transistor, emitter/collector/base"
 			(at 78.74 167.64 0)
 			(effects
 				(font

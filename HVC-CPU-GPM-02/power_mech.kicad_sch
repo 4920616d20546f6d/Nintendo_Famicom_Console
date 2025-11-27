@@ -5315,7 +5315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 141.9352 100.33 0)
 			(effects
 				(font
@@ -5385,7 +5385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 129.2352 100.33 0)
 			(effects
 				(font
@@ -6447,7 +6447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+		(property "Footprint" "Nintendo:DIP-20_W7.62mm"
 			(at 57.15 39.37 0)
 			(effects
 				(font
@@ -6456,7 +6456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS373"
+		(property "Datasheet" "kicad-embed://74LS373.pdf"
 			(at 57.15 39.37 0)
 			(effects
 				(font
@@ -6769,7 +6769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 180.0352 100.33 0)
 			(effects
 				(font
@@ -7037,7 +7037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 103.8352 100.33 0)
 			(effects
 				(font
@@ -7173,7 +7173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 167.3352 100.33 0)
 			(effects
 				(font
@@ -7569,7 +7569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Nintendo:DIP-16_W7.62mm"
 			(at 209.55 39.37 0)
 			(effects
 				(font
@@ -7578,7 +7578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS368"
+		(property "Datasheet" "kicad-embed://74LS368.pdf"
 			(at 209.55 39.37 0)
 			(effects
 				(font
@@ -7681,7 +7681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 154.6352 100.33 0)
 			(effects
 				(font
@@ -7818,7 +7818,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+		(property "Footprint" "Nintendo:DIP-24_W7.62mm"
 			(at 31.75 39.37 0)
 			(effects
 				(font
@@ -7827,7 +7827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://MB8416.pdf"
 			(at 31.75 39.37 0)
 			(effects
 				(font
@@ -8020,7 +8020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" "Nintendo:DIP-40_W15.24mm"
 			(at 133.35 39.37 0)
 			(effects
 				(font
@@ -8270,7 +8270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Nintendo:DIP-16_W7.62mm"
 			(at 184.15 39.37 0)
 			(effects
 				(font
@@ -8279,7 +8279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS368"
+		(property "Datasheet" "kicad-embed://74LS368.pdf"
 			(at 184.15 39.37 0)
 			(effects
 				(font
@@ -8382,7 +8382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 116.5352 100.33 0)
 			(effects
 				(font
@@ -8453,7 +8453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+		(property "Footprint" "Nintendo:DIP-24_W7.62mm"
 			(at 107.95 39.37 0)
 			(effects
 				(font
@@ -8462,7 +8462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://MB8416.pdf"
 			(at 107.95 39.37 0)
 			(effects
 				(font
@@ -8655,7 +8655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" "Nintendo:DIP-40_W15.24mm"
 			(at 158.75 39.37 0)
 			(effects
 				(font
@@ -8905,7 +8905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Nintendo:DIP-16_W7.62mm"
 			(at 82.55 39.37 0)
 			(effects
 				(font
@@ -8914,7 +8914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf"
+		(property "Datasheet" "kicad-embed://74LS139.pdf"
 			(at 82.55 39.37 0)
 			(effects
 				(font
@@ -9486,7 +9486,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Nintendo:C_Disc_D3.0mm_W2.0mm_P3.0mm"
+		(property "Footprint" "Nintendo:C_Disc_NoSilk_D3.0mm_W2.0mm_P3.0mm"
 			(at 89.2048 92.71 0)
 			(effects
 				(font
@@ -9620,7 +9620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Nintendo:CP_Radial_D5.0mm_P2.50mm"
 			(at 105.41 159.0548 0)
 			(effects
 				(font
