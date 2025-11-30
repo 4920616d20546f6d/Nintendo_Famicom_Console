@@ -2,6 +2,7 @@
 This project documents the Nintendo Family Computer from Japan. The goal is to provide complete, verified, schematics and PCB for every version of the console and essential accessories.
 
 # Progress
+- November 30, HVC-CPU-GPM-02 verified to be electrically correct. There are 3 mechanical errors. The drill sizes for the 15 pin connector, TC1, and Reset switch are too small. Drills and annulus will be adjusted in next revision.
 - November 27, HVC-CPU-07 acquired
 - November 12, 2025 the HVC-CPU-GPM-02 mainboard was sent out for manufacturing.
 - November 10, 2025 the first versions of all essential hardware and accessories have been complete and added to the repository.
