@@ -5306,7 +5306,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330p"
+		(property "Value" "10n"
 			(at 144.78 97.7899 0)
 			(effects
 				(font
@@ -5376,7 +5376,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330p"
+		(property "Value" "10n"
 			(at 132.08 97.7899 0)
 			(effects
 				(font
@@ -6760,7 +6760,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330p"
+		(property "Value" "10n"
 			(at 182.88 97.7899 0)
 			(effects
 				(font
@@ -7028,7 +7028,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330p"
+		(property "Value" "10n"
 			(at 106.68 97.7899 0)
 			(effects
 				(font
@@ -7164,7 +7164,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330p"
+		(property "Value" "10n"
 			(at 170.18 97.7899 0)
 			(effects
 				(font
@@ -7476,6 +7476,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 212.09 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a05188cd-2527-4b70-812e-f5f687d2651d")
+		(property "Reference" "H6"
+			(at 214.63 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Cart Alignment"
+			(at 214.63 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nintendo:npth_mounting_2.3x3.4mm_nopad"
+			(at 212.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 212.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HVC-CPU-GPM-02"
+				(path "/fb646c2d-03fe-45ba-9ef6-fc3f44aca4b4/26b7c6e0-60f8-49cb-b6c9-8a72e0d0f0d6"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 140.97 92.71 0)
 		(unit 1)
@@ -7672,7 +7736,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330p"
+		(property "Value" "10n"
 			(at 157.48 97.7899 0)
 			(effects
 				(font
@@ -8373,7 +8437,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330p"
+		(property "Value" "10n"
 			(at 119.38 97.7899 0)
 			(effects
 				(font
