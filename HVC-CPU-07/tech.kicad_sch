@@ -1,0 +1,53 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1f10f642-2c4f-491c-84ee-69864a95457a")
+	(paper "A4")
+	(title_block
+		(title "Nintendo Famicom Mainboard")
+		(date "2025-10-30")
+		(rev "1")
+	)
+	(lib_symbols)
+	(text "31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60"
+		(exclude_from_sim no)
+		(at 49.784 52.578 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1b0fe87e-088d-43ec-9d3c-5dd8458d5990")
+	)
+	(text "RF_VCC\nM2\nA12\nA13\nA14\nD7\nD6\nD5\nD4\nD3\nD2\nD1\nD0\n~{ROMSEL}\nSNDI\nSNDO\n~{WE}\n~{VCS}\n~{PA13}\nPA7\nPA8\nPA9\nPA10\nPA11\nPA12\nPA13\nPD7\nPD6\nPD5\nPD4"
+		(exclude_from_sim no)
+		(at 41.656 52.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2aae5d02-74ec-456a-a031-bea1a25a0fca")
+	)
+	(text "GND\nA11\nA10\nA9\nA8\nA7\nA6\nA5\nA4\nA3\nA2\nA1\nA0\nR/~{W}\n~{IRQ}\nGND\n~{RD}\nVA10\nPA6\nPA5\nPA4\nPA3\nPA2\nPA1\nPA0\nPD0\nPD1\nPD2\nPD3\nVCC"
+		(exclude_from_sim no)
+		(at 29.21 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6a0c1030-b91c-4181-a680-e408edc3a4d4")
+	)
+	(text "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30"
+		(exclude_from_sim no)
+		(at 23.876 51.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d6ae7fe8-3644-4a83-89b5-a3d23128aa69")
+	)
+)
